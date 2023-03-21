@@ -9,7 +9,8 @@
   "scripts": {
     "test": "jest test/*.test.ts",
     "test:watch": "jest --watchAll test/*.test.ts",
-    "bdd": "cucumber-js -p default"
+    "bdd": "cucumber-js -p default",
+    "bdd-report": "cucumber-js -p default --publish"
   },
   "repository": {
     "type": "git",
