@@ -9,7 +9,7 @@
   "scripts": {
     "test": "jest test/*.test.ts",
     "test:watch": "jest --watchAll test/*.test.ts",
-    "bdd": "cucumber-js"
+    "bdd": "cucumber-js -p default"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
   "homepage": "https://github.com/idcmardelplata/bookstore#readme",
   "devDependencies": {
     "@cucumber/cucumber": "^9.0.1",
+    "@cucumber/pretty-formatter": "^1.0.0",
     "@types/cucumber": "^7.0.0",
     "@types/jest": "^29.5.0",
     "@types/node": "^18.15.5",
