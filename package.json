@@ -1,0 +1,36 @@
+{
+  "name": "bookstore",
+  "version": "1.0.0",
+  "description": "Creating app simple bookstore  Goals: \tabm \tpersistence  \tbuy \twork in pregress",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest test/*.test.ts",
+    "test:watch": "jest --watchAll test/*.test.ts",
+    "bdd": "cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idcmardelplata/bookstore.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idcmardelplata/bookstore/issues"
+  },
+  "homepage": "https://github.com/idcmardelplata/bookstore#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.0.1",
+    "@types/cucumber": "^7.0.0",
+    "@types/jest": "^29.5.0",
+    "@types/node": "^18.15.5",
+    "cucumber": "^6.0.7",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.0.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  }
+}
