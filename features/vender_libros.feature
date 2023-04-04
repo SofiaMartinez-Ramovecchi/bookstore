@@ -37,4 +37,4 @@ Característica: vender libros
     Y el "<cliente>" lo paga
     Cuando se está entregando "<Clean Code>" pasa algo no deseado
     Entonces al cliente no resive "<Clean Code>"
-    Y hay que entregarle otra copia de "<Clean Code>"
+    Y hay que entregarle otra copia de "<Clean Code>" o hacerle un reenvolso
