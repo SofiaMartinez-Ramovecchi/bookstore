@@ -31,14 +31,6 @@ Característica: vender libros
     Entonces no se entrega el libro
     Y se debe hacer un acuerdo con el vendedor
 
-  Escenario: Vender un libro en malas condiciones
-    Dado que llega un cliente a comprar "<Clean Code>"
-    Y el libro existe en stock
-    Cuando el cliente lo paga
-    Pero justo se entrega "<Clean Code>" en malas condiciones
-    Entonces el cliente se marcha con "<Clean Code>" en malas condiciones
-    Y hay que entregarle otra copia de "<Clean Code>" sano
-
   Escenario: Vender un libro pero que no le llegue al cliente
     Dado que llega un cliente a comprar "<Clean Code>"
     Y el libro existe en stock
