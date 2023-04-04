@@ -20,8 +20,7 @@ Característica: vender libros
   Escenario: No se pudo procesar el pago
     Dado que llega un cliente a comprar "<Clean Code>"
     Y el libro existe en el stock
-    Cuando el cliente quiere pagar
-    pero no puede pagar
+    Pero "<El cliente>" no puede pagar "<Clean Code>"
     Entonces no se produce la venta
 
   Escenario: El cliente pago un libro pero justo se agoto en stock
