@@ -34,7 +34,7 @@ Característica: vender libros
   Escenario: Vender un libro pero que no le llegue al cliente
     Dado que llega un cliente a comprar "<Clean Code>"
     Y el libro existe en stock
-    Y el cliente lo paga
+    Y el "<cliente>" lo paga
     Cuando se está entregando "<Clean Code>" pasa algo no deseado
     Entonces al cliente no resive "<Clean Code>"
     Y hay que entregarle otra copia de "<Clean Code>"
