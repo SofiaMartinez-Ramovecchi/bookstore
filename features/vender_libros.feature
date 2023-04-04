@@ -26,7 +26,7 @@ Característica: vender libros
   Escenario: El cliente pago un libro pero justo se agoto en stock
     Dado que llega un cliente a comprar "<Clean Code>"
     Y el libro existe en ese momento en el stock
-    Cuando ya pagó
+    Cuando ya pagó "<El cliente>"
     Y se agotó antes el stock de "<Clean Code>"
     Entonces no se entrega el libro
     Y se debe hacer un acuerdo con el vendedor
